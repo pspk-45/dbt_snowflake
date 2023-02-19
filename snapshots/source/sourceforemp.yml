@@ -1,0 +1,10 @@
+version: 2
+
+sources:
+    - name: snowflake
+      schema: srcs
+      tables:
+          
+          - name: employee
+          - name: department
+          - name: t_name

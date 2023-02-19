@@ -1,0 +1,11 @@
+version: 2
+
+models:
+    - name: firstemployee
+      description: "A starter dbt model"
+      columns:
+          - name: EMPCODE
+          
+            tests:
+                - unique
+                - not_null
